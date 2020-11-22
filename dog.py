@@ -9,3 +9,8 @@ class Dog:
     def bark(self):
         print("Woof!")
 
+    def Roll(self):
+        print(f'{self.name} has rolled over!')
+        
+    def Sit(self):
+        print(f'{self.name} has Sat!')
