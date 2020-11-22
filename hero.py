@@ -61,6 +61,8 @@ class Hero:
             elif opponent.is_alive() == True:
                 print(f"{opponent.name} won")
     
+    def add_weapon(self, weapon):
+        self.abilities.append(weapon)
     
 
 
